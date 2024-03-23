@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "start": "deno run -A main.ts",
+    "udd": "deno run -r --allow-read=. --allow-write=. --allow-net https://deno.land/x/udd/main.ts deps.ts && deno task lock",
+    "lock": "deno cache --lock-write deps.ts",
+    "update": "deno task udd && deno task lock"
+  },
+  "lock": "./deno.lock",
+  "imports": {
+    "skyline-shines-webhook/": "./"
+  }
+}
