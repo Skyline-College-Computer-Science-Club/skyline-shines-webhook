@@ -1,6 +1,12 @@
 {
   "version": "3",
+  "redirects": {
+    "https://deno.land/x/rss/mod.ts": "https://deno.land/x/rss@1.0.1/mod.ts"
+  },
   "remote": {
+    "https://deno.land/std@0.220.0/dotenv/mod.ts": "0180eaeedaaf88647318811cdaa418cc64dc51fb08354f91f5f480d0a1309f7d",
+    "https://deno.land/std@0.220.0/dotenv/parse.ts": "09977ff88dfd1f24f9973a338f0f91bbdb9307eb5ff6085446e7c423e4c7ba0c",
+    "https://deno.land/std@0.220.0/dotenv/stringify.ts": "0047ad7068289735d08964046aea267a750c141b494ca0e38831b89be6c020c2",
     "https://deno.land/std@0.220.1/dotenv/mod.ts": "0180eaeedaaf88647318811cdaa418cc64dc51fb08354f91f5f480d0a1309f7d",
     "https://deno.land/std@0.220.1/dotenv/parse.ts": "09977ff88dfd1f24f9973a338f0f91bbdb9307eb5ff6085446e7c423e4c7ba0c",
     "https://deno.land/std@0.220.1/dotenv/stringify.ts": "0047ad7068289735d08964046aea267a750c141b494ca0e38831b89be6c020c2",
@@ -77,6 +83,28 @@
     "https://deno.land/x/discord_api_types@0.37.76/rpc/v10.ts": "fbaad9f3d73fce88e76b0e52ad5345093f18077e4293937c9ec0ee24415b9a93",
     "https://deno.land/x/discord_api_types@0.37.76/utils/internals.ts": "9a8b59a45efe216ad88d73036005babe17a475a470a80cbe5d4bba2f5bb7660e",
     "https://deno.land/x/discord_api_types@0.37.76/utils/v10.ts": "2bf6a001a02e9958d1da37df412c11b04cd6ae2a6df6cfbae6c051088c37474b",
-    "https://deno.land/x/discord_api_types@0.37.76/v10.ts": "f3f23492c59e77859aba5b34431edf3668c37f722d7f70c2e1ef7ba4bcda3010"
+    "https://deno.land/x/discord_api_types@0.37.76/v10.ts": "f3f23492c59e77859aba5b34431edf3668c37f722d7f70c2e1ef7ba4bcda3010",
+    "https://deno.land/x/rss@1.0.1/deps.ts": "70fff553732037df617f449d8910690b68bdd4da4f22c62d839cfa7aef100fd3",
+    "https://deno.land/x/rss@1.0.1/mod.ts": "b1ec308d61da4d0c7001fce3ce36c21018407f187512fd6331369db92c8f5a5a",
+    "https://deno.land/x/rss@1.0.1/src/deserializer.ts": "67a0fc2eb483a8bd629f0cd534123f680ee6b488fe7615e615e914780fadb7fb",
+    "https://deno.land/x/rss@1.0.1/src/mappers/mapper.ts": "82b8b9f45a47eaee048ae0e265b42701258e828d91d0b3cc94ccb49b13fb0b1a",
+    "https://deno.land/x/rss@1.0.1/src/mappers/media_mapper.ts": "166774136b135a7b2b350ee39ea126e7fbc17b86c3fafcc2833b73b879448bfc",
+    "https://deno.land/x/rss@1.0.1/src/resolvers/atom_resolver.ts": "c242c48986bd54ba9d6b6135f93c796560670d428d128ec2bdd692f64ab35af6",
+    "https://deno.land/x/rss@1.0.1/src/resolvers/dublin_core_resolver.ts": "7197feb6e8be78de7c40baa9dcf7e50624fcff0365e055598a7e0dd0cc6f6277",
+    "https://deno.land/x/rss@1.0.1/src/resolvers/media_rss_resolver.ts": "552068b56419074723037776c23b1d9289d85d73e976f291eb3c9714a284a542",
+    "https://deno.land/x/rss@1.0.1/src/resolvers/rss1_resolver.ts": "041f5aecaf457db698e0df423536d5f5818b7ba1d4e806cd12c62ec9f57c48e5",
+    "https://deno.land/x/rss@1.0.1/src/resolvers/rss2_resolver.ts": "c5ce158ee16d6c325b0000b054d3c067b58b69b779d141c27fba87c2fe475649",
+    "https://deno.land/x/rss@1.0.1/src/resolvers/slash_resolver.ts": "542c5b98fdb63df3558d569d1f05ec98cd8b5b671237b77294e752fa202e3302",
+    "https://deno.land/x/rss@1.0.1/src/types/feed_type.ts": "b2098f23982be344a19f00915437550d1e4002fb653ac9e34455a90119ee4e6c",
+    "https://deno.land/x/rss@1.0.1/src/types/fields/atom_fields.ts": "85bf1a4b3e917baa3c94f3fba8283b678d5a10e78a16c42cfa19b2ee0bf210b3",
+    "https://deno.land/x/rss@1.0.1/src/types/fields/dublin_core_fields.ts": "fd6b7e5b660a4f99cabb7a62ae91ab48579de340e57c8dd7ad62c992e64c1644",
+    "https://deno.land/x/rss@1.0.1/src/types/fields/media_rss_fields.ts": "076b1e23b6ca99002ffb13e5859164acdf45617aea90440acc75fb28f3aa00b4",
+    "https://deno.land/x/rss@1.0.1/src/types/fields/rss1_fields.ts": "04da9ca7d3fe2b59626c6b3bd18bfd41bf1b1531bc33f2d4f420f10da4e84f7e",
+    "https://deno.land/x/rss@1.0.1/src/types/fields/rss2_fields.ts": "c5041472e42cdf04e9f6b2e6e2e334b016aff40524c9a4a4f2c3a5875f9508ea",
+    "https://deno.land/x/rss@1.0.1/src/types/fields/slash_fields.ts": "11a1cf81744fe3b2bddbcf3a3ce6f86406d250198ef8c41e6fa58dd652e2e466",
+    "https://deno.land/x/rss@1.0.1/src/types/internal/internal_dublin_core.ts": "8b25fd4e4d296068c78da9dafb5af43cf58e2202d236a636068395722119309a",
+    "https://deno.land/x/rss@1.0.1/src/types/slash.ts": "2683b96e783146bb5b63ad487702be35f2d721129851aa09caa2ec73a4027a25",
+    "https://deno.land/x/rss@1.0.1/src/util.ts": "a6611bcea8acf000eb01220092f1bea6c18aaf3ad82578c60563f25f6260c080",
+    "https://deno.land/x/sax_ts@v1.2.12/src/sax.ts": "3b8303be055b59501d598fa6c6374b97cef1526f9f14ffe03d169f83ededae6c"
   }
 }
