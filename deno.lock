@@ -1,5 +1,113 @@
 {
   "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@deno/kv-oauth@^0.11.0": "jsr:@deno/kv-oauth@0.11.0",
+      "jsr:@discord-applications/app@^0.0.4": "jsr:@discord-applications/app@0.0.4",
+      "jsr:@maxim-mazurok/sax-ts@1.2.13": "jsr:@maxim-mazurok/sax-ts@1.2.13",
+      "jsr:@mikaelporttila/rss@^1.1.1": "jsr:@mikaelporttila/rss@1.1.1",
+      "jsr:@std/assert@^0.221.0": "jsr:@std/assert@0.221.0",
+      "jsr:@std/async@^0.221.0": "jsr:@std/async@0.221.0",
+      "jsr:@std/cli@^0.221.0": "jsr:@std/cli@0.221.0",
+      "jsr:@std/datetime@^0.221.0": "jsr:@std/datetime@0.221.0",
+      "jsr:@std/dotenv@^0.225.2": "jsr:@std/dotenv@0.225.2",
+      "jsr:@std/encoding@^0.221.0": "jsr:@std/encoding@0.221.0",
+      "jsr:@std/fmt@^0.221.0": "jsr:@std/fmt@0.221.0",
+      "jsr:@std/http@^0.221.0": "jsr:@std/http@0.221.0",
+      "jsr:@std/media-types@^0.221.0": "jsr:@std/media-types@0.221.0",
+      "jsr:@std/path@^0.221.0": "jsr:@std/path@0.221.0",
+      "jsr:@std/streams@^0.221.0": "jsr:@std/streams@0.221.0",
+      "npm:discord-api-types@0.37.79": "npm:discord-api-types@0.37.79",
+      "npm:tweetnacl@^1.0.3": "npm:tweetnacl@1.0.3"
+    },
+    "jsr": {
+      "@deno/kv-oauth@0.11.0": {
+        "integrity": "17a8822fde1573563b8bdb526d925e398a4b92394381273bad1e837fb4a6c8b2",
+        "dependencies": [
+          "jsr:@std/datetime@^0.221.0",
+          "jsr:@std/http@^0.221.0"
+        ]
+      },
+      "@discord-applications/app@0.0.4": {
+        "integrity": "fa95279d13d2ad07636799d12dd637d930a6443a0d4223e9f65493a58cb47dd5",
+        "dependencies": [
+          "npm:discord-api-types@0.37.79",
+          "npm:tweetnacl@^1.0.3"
+        ]
+      },
+      "@maxim-mazurok/sax-ts@1.2.13": {
+        "integrity": "9f2f9a3ac1b142400940a4c9e916656fe63d4710a78102aeb8e08e863de2c76d"
+      },
+      "@mikaelporttila/rss@1.1.1": {
+        "integrity": "f07d7a5a269398f00efd6913d14a92defa55bcb66a4de196a5a5c99ec9df4b8b",
+        "dependencies": [
+          "jsr:@maxim-mazurok/sax-ts@1.2.13"
+        ]
+      },
+      "@std/assert@0.221.0": {
+        "integrity": "a5f1aa6e7909dbea271754fd4ab3f4e687aeff4873b4cef9a320af813adb489a"
+      },
+      "@std/async@0.221.0": {
+        "integrity": "f5519861754a1bb2898d227dd8ccb545abc975534aa9063e53911d6cb4e365cf"
+      },
+      "@std/cli@0.221.0": {
+        "integrity": "157c2f881f0f85a73d994e7668754aeeccdf597680bd9c65de9c6bcd670416ac",
+        "dependencies": [
+          "jsr:@std/assert@^0.221.0"
+        ]
+      },
+      "@std/datetime@0.221.0": {
+        "integrity": "41188de53bd811a0f04955b1cec0ce65f9b8fec293529818c829a55dfcce5031"
+      },
+      "@std/dotenv@0.225.2": {
+        "integrity": "e2025dce4de6c7bca21dece8baddd4262b09d5187217e231b033e088e0c4dd23"
+      },
+      "@std/encoding@0.221.0": {
+        "integrity": "d1dd76ef0dc5d14088411e6dc1dede53bf8308c95d1537df1214c97137208e45"
+      },
+      "@std/fmt@0.221.0": {
+        "integrity": "379fed69bdd9731110f26b9085aeb740606b20428ce6af31ef6bd45ef8efa62a"
+      },
+      "@std/http@0.221.0": {
+        "integrity": "35fdcfed1501f2052338bf7ffba5d66f1455f2fffc01e9d7cf13eed548fffbaa",
+        "dependencies": [
+          "jsr:@std/assert@^0.221.0",
+          "jsr:@std/async@^0.221.0",
+          "jsr:@std/cli@^0.221.0",
+          "jsr:@std/encoding@^0.221.0",
+          "jsr:@std/fmt@^0.221.0",
+          "jsr:@std/media-types@^0.221.0",
+          "jsr:@std/path@^0.221.0",
+          "jsr:@std/streams@^0.221.0"
+        ]
+      },
+      "@std/media-types@0.221.0": {
+        "integrity": "572addcbda2a21367c1f8eaa8c72fea6654b50779027dbde9f693aaa4bac30c3"
+      },
+      "@std/path@0.221.0": {
+        "integrity": "0a36f6b17314ef653a3a1649740cc8db51b25a133ecfe838f20b79a56ebe0095",
+        "dependencies": [
+          "jsr:@std/assert@^0.221.0"
+        ]
+      },
+      "@std/streams@0.221.0": {
+        "integrity": "47f2f74634b47449277c0ee79fe878da4424b66bd8975c032e3afdca88986e61",
+        "dependencies": [
+          "jsr:@std/assert@^0.221.0"
+        ]
+      }
+    },
+    "npm": {
+      "discord-api-types@0.37.79": {
+        "integrity": "sha512-jblKMZL5f9t/pfUyhHNey8Lb9yVCcBVIPxz/JTY0raAmfj7CuFXdl9m5o/+iiB7E0vv1Kz9V7Ao5HtLRc2gH1Q==",
+        "dependencies": {}
+      },
+      "tweetnacl@1.0.3": {
+        "integrity": "sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==",
+        "dependencies": {}
+      }
+    }
+  },
   "redirects": {
     "https://deno.land/x/rss/mod.ts": "https://deno.land/x/rss@1.0.1/mod.ts"
   },
@@ -106,5 +214,13 @@
     "https://deno.land/x/rss@1.0.1/src/types/slash.ts": "2683b96e783146bb5b63ad487702be35f2d721129851aa09caa2ec73a4027a25",
     "https://deno.land/x/rss@1.0.1/src/util.ts": "a6611bcea8acf000eb01220092f1bea6c18aaf3ad82578c60563f25f6260c080",
     "https://deno.land/x/sax_ts@v1.2.12/src/sax.ts": "3b8303be055b59501d598fa6c6374b97cef1526f9f14ffe03d169f83ededae6c"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@deno/kv-oauth@^0.11.0",
+      "jsr:@discord-applications/app@^0.0.4",
+      "jsr:@mikaelporttila/rss@^1.1.1",
+      "jsr:@std/dotenv@^0.225.2"
+    ]
   }
 }
